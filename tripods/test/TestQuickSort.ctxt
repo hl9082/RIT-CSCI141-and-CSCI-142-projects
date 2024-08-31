@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=TestQuickSort
+comment0.text=\r\n\ JUnit\ 5\ unit\ test\ for\ the\ sort.QuickSort.\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testPartitionLess()
+comment2.text=Test\ the\ QuickSort.partitionLess\ method.
+comment3.params=
+comment3.target=void\ testPartitionEqual()
+comment3.text=Test\ the\ QuickSort.partitionEqual\ method.
+comment4.params=
+comment4.target=void\ testPartitionGreater()
+comment4.text=Test\ the\ QuickSort.partitionGreater\ method.
+comment5.params=
+comment5.target=void\ testQuickSort()
+comment5.text=Test\ the\ main\ QuickSort.quickSort\ method.
+numComments=6

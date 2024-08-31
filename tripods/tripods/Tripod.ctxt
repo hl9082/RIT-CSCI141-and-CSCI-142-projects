@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Tripod
+comment0.text=\r\n\ A\ Java\ record\ for\ a\ Tripod\r\n\ @param\ row\ row\ for\ tripod\ in\ the\ number\ grid\ (center\ position)\r\n\ @param\ col\ column\ for\ tripod\ in\ the\ number\ grid\r\n\ @param\ dir\ direction\ the\ tripod\ is\ facing\ in\ the\ number\ grid\r\n\ @param\ sum\ the\ sum\ of\ the\ three\ legs\ of\ the\ tripods\ in\ the\ number\ grid\r\n\r\n\ @author\ RIT\ CS\r\n\r\n\ Output\:\r\n\ $\ java\ Tripod\r\n\ t1\:\ Tripod[row\=1,\ col\=3,\ dir\=WEST,\ sum\=5]\r\n\ t1\ row\:\ 1\r\n\ t1\ col\:\ 3\r\n\ t1\ dir\:\ WEST\r\n\ t1\ sum\:\ 5\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Demonstrates\ usage\ of\ an\ immutable\ Tripod\ record.\r\n\r\n\ @param\ args\ command\ line\ (unused)\r\n
+numComments=2

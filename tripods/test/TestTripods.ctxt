@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=TestTripods
+comment0.text=\r\n\ JUnit\ 5\ unit\ test\ for\ the\ Tripods.\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testLoadAndDisplay()
+comment3.params=
+comment3.target=void\ testDimensions()
+comment4.params=
+comment4.target=void\ testSpotValid()
+comment5.params=
+comment5.target=void\ testSum()
+numComments=6

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Direction
+comment0.text=\r\n\ The\ four\ cardinal\ directions\ represented\ as\ an\ enum.\r\n\r\n\ @author\ RIT\ CS\r\n\r\n\ Output\:\r\n\ NORTH\r\n\ The\ north\ direction\r\n\ Both\ are\ not\ facing\ north\!\r\n\ All\ values\:\r\n\ NORTH\r\n\ SOUTH\r\n\ EAST\r\n\ WEST\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Example\ usage\ of\ the\ Direction\ enum.\r\n\r\n\ @param\ args\ command\ line\ arguments\ (unused)\r\n
+numComments=2

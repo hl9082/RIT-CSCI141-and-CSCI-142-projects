@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=QuickSort
+comment0.text=\r\n\ Perform\ an\ "out\ of\ place"\ quick\ sort\ on\ an\ array\ list\ of\ Tripod's\ by\r\n\ ascending\ tripod\ sum.\r\n\ <pre>\r\n\ quick_sort\ (not\ in\ place)\:\r\n\ best\=O(nlogn)\r\n\ worst\=O(n^2)\r\n\ </pre>\r\n\r\n\ @author\ RIT\ CS\r\n\ @author\ Huy\ Le\r\n
+comment1.params=data\ pivot
+comment1.target=java.util.ArrayList\ partitionLess(java.util.ArrayList,\ tripods.Tripod)
+comment1.text=\r\n\ Partition\ the\ array\ for\ values\ less\ than\ the\ pivot.\r\n\r\n\ @param\ data\ \ the\ full\ array\ of\ data\r\n\ @param\ pivot\ the\ pivot\r\n\ @return\ data\ less\ than\ the\ pivot\r\n
+comment2.params=data\ pivot
+comment2.target=java.util.ArrayList\ partitionEqual(java.util.ArrayList,\ tripods.Tripod)
+comment2.text=\r\n\ Partition\ the\ array\ for\ values\ equal\ to\ the\ pivot.\r\n\r\n\ @param\ data\ \ the\ full\ array\ of\ data\r\n\ @param\ pivot\ the\ pivot\r\n\ @return\ data\ equal\ to\ the\ pivot\r\n
+comment3.params=data\ pivot
+comment3.target=java.util.ArrayList\ partitionGreater(java.util.ArrayList,\ tripods.Tripod)
+comment3.text=\r\n\ Partition\ the\ array\ for\ values\ greater\ than\ the\ pivot.\r\n\r\n\ @param\ data\ \ the\ full\ array\ of\ data\r\n\ @param\ pivot\ the\ pivot\r\n\ @return\ data\ greater\ than\ \ the\ pivot\r\n
+comment4.params=data
+comment4.target=java.util.ArrayList\ quickSort(java.util.ArrayList)
+comment4.text=\r\n\ Performs\ a\ quick\ sort\ and\ returns\ a\ newly\ sorted\ array.\r\n\r\n\ @param\ data\ the\ data\ to\ be\ sorted\r\n\ @return\ a\ sorted\ array\r\n
+numComments=5
