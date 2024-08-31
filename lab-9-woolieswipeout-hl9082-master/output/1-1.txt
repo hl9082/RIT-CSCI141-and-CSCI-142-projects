@@ -1,0 +1,48 @@
+SIM: Woolie Wipeout has begun with 1 woolie/s and a maximum of 1 woolie/s on the course
+KRAKEN: let the show begin!
+KRAKEN: turning on course...
+WOOLIE: Woolie_1(total=2, remaining=2, fallen=0, preserver=Optional.empty) enters line
+WOOLIE: Woolie_1(total=2, remaining=2, fallen=0, preserver=Optional.empty) enters course
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=1, numOnCourse=1, fallenWoolie=false, running=true, open=true, wooliesWaiting=0)
+KRAKEN: Woolie_1 gets Preserver(id=1, buoyancy=9)
+	WOOLIE: Woolie_1(total=2, remaining=2, fallen=0, preserver=Optional[Preserver(id=1, buoyancy=8)]) fell of the course!
+WOOLIE: Woolie_1(total=2, remaining=2, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=8)]) leaves course
+KRAKEN: Woolie_1 returns Preserver(id=1, buoyancy=8)
+WOOLIE: Woolie_1(total=2, remaining=2, fallen=1, preserver=Optional.empty) enters line
+WOOLIE: Woolie_1(total=2, remaining=2, fallen=1, preserver=Optional.empty) enters course
+KRAKEN: Woolie_1 gets Preserver(id=1, buoyancy=8)
+	WOOLIE: Woolie_1(total=2, remaining=2, fallen=1, preserver=Optional[Preserver(id=1, buoyancy=7)]) fell of the course!
+WOOLIE: Woolie_1(total=2, remaining=2, fallen=2, preserver=Optional[Preserver(id=1, buoyancy=7)]) leaves course
+KRAKEN: Woolie_1 returns Preserver(id=1, buoyancy=7)
+WOOLIE: Woolie_1(total=2, remaining=2, fallen=2, preserver=Optional.empty) enters line
+WOOLIE: Woolie_1(total=2, remaining=2, fallen=2, preserver=Optional.empty) enters course
+KRAKEN: Woolie_1 gets Preserver(id=1, buoyancy=7)
+WOOLIE: Woolie_1(total=2, remaining=2, fallen=2, preserver=Optional[Preserver(id=1, buoyancy=6)]) crossing course...
+KRAKEN: A Woolie has fallen!  Turning off course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=1, numOnCourse=1, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+KRAKEN: A Woolie has fallen!  Waiting for Woolies to exit course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=1, numOnCourse=1, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+KRAKEN: A Woolie has fallen!  Waiting for Woolies to exit course...
+WOOLIE: Woolie_1(total=2, remaining=1, fallen=2, preserver=Optional[Preserver(id=1, buoyancy=6)]) leaves course
+KRAKEN: Woolie_1 returns Preserver(id=1, buoyancy=6)
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=1, numOnCourse=0, fallenWoolie=true, running=false, open=true, wooliesWaiting=0)
+WOOLIE: Woolie_1(total=2, remaining=1, fallen=2, preserver=Optional.empty) enters line
+KRAKEN: All Woolies have exited course!  Restarting course...
+WOOLIE: Woolie_1(total=2, remaining=1, fallen=2, preserver=Optional.empty) enters course
+KRAKEN: Woolie_1 gets Preserver(id=1, buoyancy=6)
+WOOLIE: Woolie_1(total=2, remaining=1, fallen=2, preserver=Optional[Preserver(id=1, buoyancy=5)]) crossing course...
+WOOLIE: Woolie_1(total=2, remaining=0, fallen=2, preserver=Optional[Preserver(id=1, buoyancy=5)]) leaves course
+KRAKEN: Woolie_1 returns Preserver(id=1, buoyancy=5)
+	WOOLIE:Woolie_1(total=2, remaining=0, fallen=2, preserver=Optional.empty) finishes course!
+KRAKEN: turning off course...
+KRAKEN: OBSTACLE_COURSE: ObstacleCourse(maxOnCourse=1, numOnCourse=0, fallenWoolie=false, running=false, open=false, wooliesWaiting=0)
+KRAKEN: that's all folks!
+SIM: Woolie Wipeout has ended...
+SIM: Woolie results:
+	Woolie_1(total=2, remaining=0, fallen=2, preserver=Optional.empty)
+SIM: Woolie/s who fell the most, 2 times:
+	Woolie_1(total=2, remaining=0, fallen=2, preserver=Optional.empty)
+SIM: Number of preservers dispensed: 1
+SIM: Remaining preservers:
+	Preserver(id=1, buoyancy=5)
+SIM: Destroyed preservers:
