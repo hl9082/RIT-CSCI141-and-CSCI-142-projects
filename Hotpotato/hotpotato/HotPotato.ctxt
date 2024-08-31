@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=HotPotato
+comment0.text=\r\n\ The\ main\ program\ for\ the\ game\ of\ hot\ potato.\ \ It\ takes\ on\ the\ command\ line\ the\r\n\ number\ of\ players\ and\ seed\ (0\ for\ no\ seed\ -\ truly\ random)\ to\ create\ the\ game\r\n\ and\ then\ plays\ the\ game\ to\ completion.\r\n\r\n\ @author\ RIT\ CS\r\n\ @author\ HUY\ LE\r\n
+comment1.params=size\ seed
+comment1.target=HotPotato(int,\ int)
+comment1.text=\r\n\ Initialize\ the\ game\ by\ creating\ the\ circle\ and\ adding\ players\ in\ order\r\n\ from\ the\ above\ list\ of\ players.\ \ Also\ creates\ the\ random\ number\ generator\r\n\ with\ a\ seed\ (or\ not).\r\n\ @see\ CircularListLinkedList\#CircularListLinkedList()\r\n\ @see\ CircularListLinkedList\#append(Object)\r\n\ @param\ size\ the\ size\ of\ the\ circle\r\n\ @param\ seed\ the\ seed\ of\ the\ random\ number\ generator\r\n
+comment2.params=
+comment2.target=int\ getRandomNumPasses()
+comment2.text=\r\n\ Generate\ a\ random\ number\ from\ 0\ to\ MAX_PASSES,\ inclusive.\ \ This\ is\r\n\ used\ to\ determine\ for\ the\ current\ round\ how\ many\ times\ to\ pass\ the\r\n\ hot\ potato.\r\n\ @return\ a\ random\ number\ between\ 0\ and\ MAX_PASSES\r\n
+comment3.params=
+comment3.target=void\ display()
+comment3.text=\r\n\ Display\ to\ standard\ output\ the\ round,\ number\ of\ players\ still\ active,\r\n\ and\ the\ players\ in\ the\ circle\ from\ front\ to\ back.\r\n\ @see\ CircularListLinkedList\#size()\r\n\ @see\ CircularListLinkedList\#toString()\r\n
+comment4.params=
+comment4.target=void\ playGame()
+comment4.text=\r\n\ Play\ the\ game\ until\ the\ size\ of\ the\ circle\ has\ just\ one\ player\ left.\r\n\ For\ each\ round,\ display\ the\ current\ circle,\ then\ get\ the\ random\ number\ of\ passes\r\n\ to\ move\ the\ cursor\ in\ the\ current\ direction\ (right\ then\ left,\ alternating).\r\n\ Remove\ the\ loser\ at\ the\ cursor\ and\ move\ the\ cursor\ in\ the\ current\ direction.\r\n\ See\ the\ examples\ in\ the\ output\ directory\ for\ more\ details.\r\n\r\n\ @see\ HotPotato\#display()\r\n\ @see\ HotPotato\#getRandomNumPasses()\r\n\ @see\ CircularListLinkedList\#size()\r\n\ @see\ CircularListLinkedList\#get()\r\n\ @see\ CircularListLinkedList\#forward()\r\n\ @see\ CircularListLinkedList\#backward()\r\n\ @see\ CircularListLinkedList\#removeForward()\r\n\ @see\ CircularListLinkedList\#removeBackward()\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ The\ main\ method\ expects\ the\ number\ of\ players\ and\ the\ seed\ on\ the\ command\ line.\r\n\ If\ everything\ is\ in\ order\ the\ game\ is\ created\ and\ played.\r\n\ @param\ args\ command\ line\ arguments\ containing\ number\ of\ players\ and\ random\ number\ generator\ seed.\r\n\ @see\ HotPotato\#HotPotato(int,\ int)\r\n\ @see\ HotPotato\#playGame()\r\n
+numComments=6

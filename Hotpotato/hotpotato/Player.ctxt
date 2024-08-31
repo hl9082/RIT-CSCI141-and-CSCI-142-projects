@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Represents\ a\ single\ player\ in\ the\ game.\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=name\ id
+comment1.target=Player(java.lang.String,\ int)
+comment1.text=\r\n\ Create\ a\ new\ player.\r\n\ @param\ name\ player\ name\r\n\ @param\ id\ player\ id\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Accessor\ for\ player's\ name.\r\n\ @return\ player's\ name\r\n
+comment3.params=
+comment3.target=int\ getId()
+comment3.text=\r\n\ Accessor\ for\ player's\ id.\r\n\ @return\ player's\ id\r\n
+comment4.params=other
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\r\n\ Two\ players\ are\ equal\ if\ they\ have\ the\ same\ name\ and\ id.\r\n\ @param\ other\ the\ other\ player\ to\ compare\ to\r\n\ @return\ whether\ they\ are\ equal\ or\ not\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ a\ string\ in\ the\ form\:\ "{Player\ name}({id})".\r\n\ @return\ the\ string\ representation\ of\ the\ player\r\n
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TestCircularListNode
+comment0.text=\r\n\ JUnit\ 5.8\ tester\ for\ CircularListNode\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testAppend()
+comment3.params=
+comment3.target=void\ testCursorBasics()
+comment4.params=
+comment4.target=void\ testCursorMovement()
+comment5.params=
+comment5.target=void\ testRemoveForward()
+comment6.params=
+comment6.target=void\ testRemoveBackward()
+numComments=7

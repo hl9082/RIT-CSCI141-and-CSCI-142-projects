@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=DLNode
+comment0.text=\r\n\ A\ doubly\ linked\ node\ that\ holds\ a\ generic\ type\ of\ data.\r\n\r\n\ @author\ RIT\ CS\r\n\ @author\ Huy\ Le\r\n
+comment1.params=data
+comment1.target=DLNode(java.lang.Object)
+comment1.text=\r\n\ Create\ a\ new\ node\ with\ no\ predecessor\ or\ successor.\r\n\ @param\ data\ the\ user\ data\ to\ be\ stored\r\n
+comment2.params=data\ prev\ next
+comment2.target=DLNode(java.lang.Object,\ DLNode,\ DLNode)
+comment2.text=\r\n\ Construct\ a\ new\ node\ with\ pointers\ to\ the\ previous\ and\ next\ node.\r\n\ @param\ data\ The\ user\ data\ to\ be\ stored\r\n\ @param\ prev\ The\ link\ to\ the\ previous\ node\ (null\ if\ none)\r\n\ @param\ next\ The\ link\ to\ the\ next\ node\ (null\ if\ none)\r\n
+comment3.params=
+comment3.target=DLNode\ getPrev()
+comment3.text=\r\n\ Get\ the\ predecessor\ node.\r\n\ @return\ the\ previous\ node\ (null\ if\ none)\r\n
+comment4.params=
+comment4.target=DLNode\ getNext()
+comment4.text=\r\n\ Get\ the\ successor\ node.\r\n\ @return\ the\ next\ node\ (null\ if\ none)\r\n
+comment5.params=
+comment5.target=java.lang.Object\ getData()
+comment5.text=\r\n\ Get\ the\ Node's\ data.\r\n\ @return\ the\ user\ data\r\n
+comment6.params=prev
+comment6.target=void\ setPrev(DLNode)
+comment6.text=\r\n\ Change\ the\ node's\ successor.\r\n\ @param\ prev\ the\ node's\ new\ next\ link\r\n
+comment7.params=next
+comment7.target=void\ setNext(DLNode)
+comment7.text=\r\n\ Change\ the\ node's\ successor.\r\n\ @param\ next\ the\ node's\ new\ next\ link\r\n
+comment8.params=data
+comment8.target=void\ setData(java.lang.Object)
+comment8.text=\r\n\ Change\ the\ node's\ data.\r\n\ @param\ data\ the\ node's\ new\ data\r\n
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ node\ in\ the\ format\:\r\n\ <pre>\r\n\ \ \ \ \ DLNode{data\=XXX,\ prev\=YYY,\ next\=YYY}\r\n\ </pre>\r\n\ <ul>\r\n\ \ \ \ \ <li>\r\n\ \ \ \ \ \ \ \ \ XXX\:\ The\ data\ element\ of\ the\ current\ node.\r\n\ \ \ \ \ </li>\r\n\ \ \ \ \ <li>\r\n\ \ \ \ \ \ \ \ \ YYY\:\ The\ data\ element\ of\ the\ previous\ node.\ \ If\ no\ node,\ "null".\r\n\ \ \ \ \ </li>\r\n\ \ \ \ \ <li>\r\n\ \ \ \ \ \ \ \ \ ZZZ\:\ The\ data\ element\ of\ the\ next\ node.\ \ If\ no\ node,\ "null".\r\n\ \ \ \ \ </li>\r\n\ </ul>\r\n\ @return\ the\ string\ described\ above\r\n
+numComments=10
