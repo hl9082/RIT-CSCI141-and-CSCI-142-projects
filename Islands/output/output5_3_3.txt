@@ -1,0 +1,119 @@
+Welcome to Islands!
+List of commands available:
+	c(laim) row column  -- claim the cell in that row and column
+	s(how) {red|blue}   -- show the islands claimed by the given player
+	h(elp)              -- display this list of commands
+	q(uit)              -- quit the game
+
+ 
+      0  1  2
+    _________
+ 0 |         
+ 1 |         
+ 2 |         
+
+Player: RED, islands: 0, Player: BLUE, islands: 0
+Moves: 0, Turn: RED
+> RED's move...
+ 
+      0  1  2
+    _________
+ 0 |         
+ 1 |     *   
+ 2 |         
+
+Player: RED, islands: 1, Player: BLUE, islands: 0
+Moves: 1, Turn: BLUE
+> BLUE's move...
+ 
+      0  1  2
+    _________
+ 0 |     -   
+ 1 |     *   
+ 2 |         
+
+Player: RED, islands: 1, Player: BLUE, islands: 1
+Moves: 2, Turn: RED
+> RED's move...
+ 
+      0  1  2
+    _________
+ 0 |     -  *
+ 1 |     *   
+ 2 |         
+
+Player: RED, islands: 2, Player: BLUE, islands: 1
+Moves: 3, Turn: BLUE
+> BLUE's move...
+ 
+      0  1  2
+    _________
+ 0 |     -  *
+ 1 |     *  -
+ 2 |         
+
+Player: RED, islands: 2, Player: BLUE, islands: 2
+Moves: 4, Turn: RED
+> RED's move...
+ 
+      0  1  2
+    _________
+ 0 |  *  -  *
+ 1 |     *  -
+ 2 |         
+
+Player: RED, islands: 3, Player: BLUE, islands: 2
+Moves: 5, Turn: BLUE
+> BLUE's move...
+ 
+      0  1  2
+    _________
+ 0 |  *  -  *
+ 1 |  -  *  -
+ 2 |         
+
+Player: RED, islands: 3, Player: BLUE, islands: 3
+Moves: 6, Turn: RED
+> RED's move...
+ 
+      0  1  2
+    _________
+ 0 |  *  -  *
+ 1 |  -  *  -
+ 2 |        *
+
+Player: RED, islands: 4, Player: BLUE, islands: 3
+Moves: 7, Turn: BLUE
+> BLUE's move...
+ 
+      0  1  2
+    _________
+ 0 |  *  -  *
+ 1 |  -  *  -
+ 2 |     -  *
+
+Player: RED, islands: 4, Player: BLUE, islands: 4
+Moves: 8, Turn: RED
+> Invalid user input!
+> Invalid user input!
+> Player: BLUE, islands: 4
+Island{size:1}
+	(0,1)
+Island{size:1}
+	(1,2)
+Island{size:1}
+	(1,0)
+Island{size:1}
+	(2,1)
+> RED's move...
+ 
+      0  1  2
+    _________
+ 0 |  *  -  *
+ 1 |  -  *  -
+ 2 |  *  -  *
+
+Player: RED, islands: 5, Player: BLUE, islands: 4
+
+RED wins 5 to 4!
+> Bye!

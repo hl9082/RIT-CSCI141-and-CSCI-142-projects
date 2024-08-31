@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Islands
+comment0.text=\r\n\ The\ main\ program\ for\ the\ pen\ and\ paper\ game,\ Islands.\ \ It\ is\ run\ on\ the\ command\ line\ as\:<br>\r\n\ <br>\r\n\ java\ Islands\ \#_of_rows\ \#_of_columns<br>\r\n\ <br>\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=rows\ cols
+comment1.target=Islands(int,\ int)
+comment1.text=\r\n\ Initialize\ the\ game.\r\n\ @param\ rows\ the\ number\ of\ rows\ in\ the\ board.\r\n\ @param\ cols\ the\ number\ of\ columns\ in\ the\ board.\r\n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\r\n\ The\ game\ play\ loop.\ This\ function\ process\ all\ the\ user\ input\ to\ play\ the\ game.\r\n\ <br><br>\r\n\ After\ every\ valid\ move,\ the\ new\ status\ of\ the\ game\ will\ be\ printed.\r\n
+comment3.params=
+comment3.target=void\ displayHelp()
+comment3.text=\r\n\ Display\ all\ the\ commands\ available\ in\ the\ game.\r\n
+comment4.params=args
+comment4.target=boolean\ makeMove(java.lang.String[])
+comment4.text=\r\n\ A\ helper\ function\ for\ making\ a\ single\ move\ in\ the\ game\ for\r\n\ the\ current\ player.\r\n\ <br><br>\r\n\ If\ the\ number\ of\ argument\ is\ incorrect,\ this\ function\ prints\ an\ error\ message\r\n\ of\ the\ type\:\ Invalid\ user\ input\!\r\n\ <br><br>\r\n\ If\ the\ row\ and\ column\ are\ invalid\:\ they\ do\ not\ exist\ in\ the\ game's\ board\ or\ the\ cell\ is\ already\ claimed,\r\n\ this\ function\ prints\ an\ error\ message\ of\ the\ type\:\ Invalid\ cell\ coordinates\!\r\n\r\n\ @param\ args\ row\ and\ column\ user\ input\r\n\ @return\ whether\ the\ move\ was\ successfully\ made\ or\ not,\ e.g.\ the\ coordinates\ are\ out\ of\ bounds\ of\ the\ board\r\n\ or\ the\ cell\ has\ been\ already\ claimed.\r\n
+comment5.params=args
+comment5.target=void\ displayPlayer(java.lang.String[])
+comment5.text=\r\n\ Display\ all\ the\ islands\ owned\ by\ the\ given\ player.\r\n\ <br><br>\r\n\ If\ the\ number\ of\ arguments\ is\ incorrect,\ this\ function\ prints\ an\ error\ message\ of\ the\ type\:\r\n\ Invalid\ user\ input\!\r\n\r\n\ @param\ args\ the\ player's\ label\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ The\ main\ method\ gets\ the\ command-line\ arguments,\ constructs\r\n\ and\ plays\ the\ game.\r\n\r\n\ @param\ args\ the\ game\ board's\ dimension\ (number\ of\ rows\ and\ columns)\r\n
+numComments=7

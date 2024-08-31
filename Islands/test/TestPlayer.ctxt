@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TestPlayer
+comment0.text=\r\n\ JUnit\ test\ framework\ for\ the\ islands.Player\ class.\r\n\ <p>\r\n\ Notice\ this\ test\ class\ is\ different\ from\ the\ other\ test\ classes\ in\ this\ package.\ In\ this\ class,\r\n\ there\ is\ a\ dependency\ between\ the\ methods.\ The\ test\ methods\ have\ been\ set\ up\ to\ run\ in\ a\ specific\ order.\ Running\r\n\ just\ one\ single\ test\ method\ may\ fail\ because\ it\ requires\ another\ test\ method\ to\ be\ executed\ first.\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testInit()
+comment3.params=
+comment3.target=void\ testClaim()
+comment4.params=
+comment4.target=void\ testTouchesBoardBoundaries()
+comment5.params=
+comment5.target=void\ testEquals()
+comment6.params=
+comment6.target=void\ testToString()
+numComments=7

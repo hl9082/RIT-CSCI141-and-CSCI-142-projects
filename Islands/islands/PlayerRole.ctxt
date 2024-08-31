@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PlayerRole
+comment0.text=\r\n\ This\ class\ is\ an\ enumeration\ for\ representing\ the\ players\ in\ the\r\n\ Islands\ game.\ Here\ is\ an\ example\ of\ how\ you\ can\ use\ this\ enum\ in\ another\r\n\ class\:\r\n\r\n\ <pre>\r\n\ PlayerRole\ role\ \=\ PlayerRole.Red;\ \ \ \ \ \ \ \ //\ player\ role\ is\ Red\r\n\ if\ (role\ \=\=\ PlayerRole.Red)\ {\r\n\ \ \ \ \ System.out.println(role);\ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ prints\:\ RED\r\n\ \ \ \ \ System.out.println(role.getLabel());\ \ \ //\ prints\:\ *\r\n\ }\r\n\ role\ \=\ PlayerRole.BLUE;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ player\ role\ is\ now\ Blue\r\n\r\n\ //\ validating\ if\ a\ given\ player\ role's\ name\ is\ valid\r\n\ boolean\ isValid\ \=\ PlayerRole.isPlayerRole("red");\r\n\ if\ (isValid)\ {\r\n\ \ \ \ \ //\ get\ the\ enum\ constant\ with\ that\ given\ name\r\n\ \ \ \ \ PlayerRole\ role\ \=\ PlayerRole.valueOf("red");\r\n\ }\r\n\r\n\ PlayerRole.isPlayerRole("Fake");\ //\ returns\ false,\ there\ is\ no\ constant\ with\ name\ value\ "Fake"\r\n\ </pre>\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=label
+comment1.target=PlayerRole(java.lang.String)
+comment1.text=\r\n\ Create\ the\ role\ with\ the\ label.\ This\ should\ not\ get\ called\ directly\ by\ the\r\n\ user\ -\ it\ happens\ implicitly\ when\ the\ definitions\ above\ are\ read\ in.\r\n\r\n\ @param\ label\ the\ label\ for\ the\ role\r\n
+comment2.params=role
+comment2.target=boolean\ isPlayerRole(java.lang.String)
+comment2.text=\r\n\ See\ if\ the\ player's\ role\ is\ legitimate.\r\n\r\n\ @param\ role\ the\ player's\ role\ to\ check\r\n\ @return\ true\ only\ if\ this\ role\ value\ is\ valid.\ (Case\ must\ match.)\r\n
+comment3.params=
+comment3.target=java.lang.String\ getLabel()
+comment3.text=\r\n\ Get\ the\ player\ role's\ label.\r\n\r\n\ @return\ the\ string\ label\r\n
+numComments=4

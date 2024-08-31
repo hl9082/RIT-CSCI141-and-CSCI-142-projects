@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TestCoordinates
+comment0.text=\r\n\ JUnit\ test\ framework\ for\ the\ islands.Coordinates\ class.\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=
+comment1.target=void\ testInit()
+comment2.params=
+comment2.target=void\ testEquals()
+comment3.params=
+comment3.target=void\ testGetNeighbors()
+comment4.params=
+comment4.target=void\ testToString()
+numComments=5

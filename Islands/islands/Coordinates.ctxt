@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Coordinates
+comment0.text=\r\n\ A\ handy\ class\ for\ manipulating\ 2D\ locations.\ The\ coordinates\ are\ integers,\ \r\n\ making\ them\ suitable\ for\ grid-based\ computations.\r\n\r\n\ @author\ RIT\ CS\r\n\ @author\ HUY\ LE\r\n
+comment1.params=row\ col
+comment1.target=Coordinates(int,\ int)
+comment1.text=\r\n\ Initialize\ this\ object\ with\ the\ actual\ integer\ values.\r\n\ @param\ row\ -\ the\ row\ value\r\n\ @param\ col\ -\ the\ column\ value\r\n
+comment2.params=
+comment2.target=int\ getRow()
+comment2.text=\r\n\ What\ is\ the\ row\ coordinate?\r\n\ @return\ the\ row\ value\ stored\ in\ this\ Coordinates\ object.\r\n
+comment3.params=
+comment3.target=int\ getCol()
+comment3.text=\r\n\ What\ is\ the\ column\ coordinate?\r\n\ @return\ the\ column\ value\ stored\ in\ this\ Coordinates\ object.\r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getNeighbors()
+comment4.text=\r\n\ Generate\ the\ Coordinates\ objects\ of\ the\ four\ "compass"\ neighbors\ \r\n\ (north,\ south,\ east\ and\ west)\ \r\n\ of\ this\ Coordinates\ object.\r\n\ This\ method\ will\ always\ generate\ four\ neighbors\ \r\n\ even\ if\ those\ Coordinates\ neighbors\ are\ invalid\ \r\n\ (out\ of\ the\ bounds\ of\ the\ game's\ board).\r\n\ @return\ a\ list\ with\ the\ 4\ neighbors\ coordinates.\r\n
+comment5.params=other
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\r\n\ Compare\ this\ object\ to\ another\ Coordinates\ object.\r\n\ @override\ equals\ in\ class\ Object.\r\n\ @param\ other\ -\ the\ other\ Coordinates\ object.\r\n\ @return\ true\ only\ if\ both\ the\ rows\ and\ columns\ are\ equal.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Produce\ a\ human-readable\ string\ of\ this\ object.\r\n\ @override\ toString\ in\ class\ Object.\r\n\ @return\ a\ string\ in\ the\ format\ "(row,column)"\r\n
+numComments=7

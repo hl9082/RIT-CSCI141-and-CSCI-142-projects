@@ -1,0 +1,14 @@
+c 0 0
+c 0 2
+c -1 0
+c 0 1
+c 1 0
+q
+
+
+Grid's dimension: 2x2
+Testing:
+    - invalid coordinates
+    - merge island with neighbor north island
+    - red's player game over condition
+    - tie between players

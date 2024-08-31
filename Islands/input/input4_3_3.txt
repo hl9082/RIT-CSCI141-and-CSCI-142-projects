@@ -1,0 +1,23 @@
+c 0 0
+c 1 1
+c 1 2
+c 0 2
+c 2 1
+c 1 2
+c 2 0
+c 0 1
+c 1 0
+c 2 2
+s red
+s blue
+q
+
+Grid's dimension: 3x3
+Testing:
+    - attempt to claim a cell that has been already claimed
+    - merge island with neighbor east island
+    - merge island with both east and south islands
+    - merge island with both west and north islands
+    - show command
+    - game over condition: no more cells to claim
+    - tie between players

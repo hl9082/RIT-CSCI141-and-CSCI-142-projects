@@ -1,0 +1,25 @@
+c 1 2
+c 2 1
+c 2 0
+c 0 0
+c 0 1
+c 0 2
+c 3 1
+c 3 0
+c 0 3
+c 1 3
+c 3 3
+c 3 2
+c 1 0
+c 2 3
+c 2 2
+c 1 1
+q
+
+
+Grid's dimension: 4x4
+Testing:
+    - merge island with neighbor south island
+    - merge island with neighbor north island
+    - game over condition: no more cells to claim
+    - tie between players
