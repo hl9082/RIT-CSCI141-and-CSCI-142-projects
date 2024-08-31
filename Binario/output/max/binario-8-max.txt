@@ -1,0 +1,24 @@
+File: data/binario-8.txt
+Dim: 8
+Initial config:
+. . . . 0 . . .
+1 . 1 . . 1 . .
+. . . . . . 0 .
+1 . 0 0 . . . .
+. 1 . . . . . .
+. . 1 . 0 0 . 1
+0 1 . . 1 . . .
+. . 0 . . . . 0
+
+Solution:
+0 1 0 1 0 0 1 1
+1 0 1 0 1 1 0 0
+0 0 1 1 0 1 0 1
+1 1 0 0 1 0 1 0
+1 1 0 0 1 1 0 0
+0 0 1 1 0 0 1 1
+0 1 1 0 1 0 0 1
+1 0 0 1 0 1 1 0
+
+Elapsed time: 0.004 seconds.
+1576 configurations generated.

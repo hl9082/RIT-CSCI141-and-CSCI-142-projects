@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=IBinarioConfig
+comment0.text=\r\n\ An\ interface\ to\ the\ binario\ puzzle\ representation\ that\ is\ used\ by\ the\ JUnit\ test\r\n\ and\ BinarioConfig's\ toString().\r\n
+comment1.params=
+comment1.target=int\ getDim()
+comment1.text=\r\n\ Get\ the\ square\ dimension\ of\ the\ puzzle.\r\n\ @return\ number\ of\ rows\r\n
+comment2.params=row\ col
+comment2.target=char\ getVal(int,\ int)
+comment2.text=\r\n\ Get\ the\ value\ at\ the\ cell.\r\n\ @param\ row\ the\ row\r\n\ @param\ col\ the\ coordinate\r\n\ @return\ the\ cell\ value\r\n
+comment3.params=
+comment3.target=int\ getCursorRow()
+comment3.text=\r\n\ Get\ the\ cursor\ row\ location.\r\n\ @return\ cursor\ row\r\n
+comment4.params=
+comment4.target=int\ getCursorCol()
+comment4.text=\r\n\ Get\ the\ cursor\ column\ location.\r\n\ @return\ cursor\ column\r\n
+comment5.params=
+comment5.target=java.lang.String\ display()
+comment5.text=\r\n\ A\ default\ implementation\ that\ the\ config's\ toString()\ will\ call\r\n\ to\ get\ the\ board\ values\ in\ string\ form.\r\n\r\n\ @return\ the\ board\ in\ string\ form\r\n
+numComments=6

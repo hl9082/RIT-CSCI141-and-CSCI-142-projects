@@ -1,0 +1,16 @@
+File: data/binario-4.txt
+Dim: 4
+Initial config:
+. 1 . 0
+. . 0 .
+. 0 . .
+1 1 . 0
+
+Solution:
+0 1 1 0
+1 0 0 1
+0 0 1 1
+1 1 0 0
+
+Elapsed time: 0.0 seconds.
+46 configurations generated.

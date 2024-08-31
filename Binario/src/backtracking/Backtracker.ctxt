@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Backtracker
+comment0.text=\r\n\ This\ class\ represents\ the\ classic\ recursive\ backtracking\ algorithm.\r\n\ It\ has\ a\ solver\ that\ can\ take\ a\ valid\ configuration\ and\ return\ a\r\n\ solution,\ if\ one\ exists.\r\n\r\n\ @author\ RIT\ CS\r\n\ @author\ Huy\ Le\r\n
+comment1.params=debug
+comment1.target=Backtracker(boolean)
+comment1.text=\r\n\ Initialize\ a\ new\ backtracker.\r\n\r\n\ @param\ debug\ Is\ debugging\ output\ enabled?\r\n
+comment2.params=msg\ config
+comment2.target=void\ debugPrint(java.lang.String,\ Configuration)
+comment2.text=\r\n\ A\ utility\ routine\ for\ printing\ out\ various\ debug\ messages.\r\n\r\n\ @param\ msg\ The\ type\ of\ config\ being\ looked\ at\ (current,\ goal,\r\n\ \ successor,\ e.g.)\r\n\ @param\ config\ The\ config\ to\ display\r\n
+comment3.params=config
+comment3.target=java.util.Optional\ solve(Configuration)
+comment3.text=\r\n\ Try\ find\ a\ solution,\ if\ one\ exists,\ for\ a\ given\ configuration.\r\n\r\n\ @param\ config\ A\ valid\ configuration\r\n\ @return\ A\ solution\ config,\ or\ null\ if\ no\ solution\r\n
+comment4.params=
+comment4.target=int\ getConfigCount()
+comment4.text=\r\n\ Get\ the\ number\ of\ configurations\ processed\ during\ backtracking.\r\n\r\n\ @return\ config\ count\r\n
+numComments=5

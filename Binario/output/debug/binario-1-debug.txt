@@ -1,0 +1,18 @@
+File: data/binario-1.txt
+Dim: 1
+Initial config:
+.
+
+Backtracker debugging enabled...
+Current config: 
+.
+
+	Invalid successor: 
+0
+
+	Invalid successor: 
+1
+
+No solution exists!
+Elapsed time: 0.0 seconds.
+3 configurations generated.

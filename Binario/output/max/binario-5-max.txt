@@ -1,0 +1,12 @@
+File: data/binario-5.txt
+Dim: 5
+Initial config:
+. . . . 1
+. 0 . . .
+. . 1 . .
+. . . . .
+1 . . . 0
+
+No solution exists!
+Elapsed time: 0.0 seconds.
+37 configurations generated.

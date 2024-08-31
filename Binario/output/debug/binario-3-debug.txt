@@ -1,0 +1,116 @@
+File: data/binario-3.txt
+Dim: 3
+Initial config:
+. . .
+. . .
+. . .
+
+Backtracker debugging enabled...
+Current config: 
+. . .
+. . .
+. . .
+
+Valid successor: 
+0 . .
+. . .
+. . .
+
+Current config: 
+0 . .
+. . .
+. . .
+
+Valid successor: 
+0 0 .
+. . .
+. . .
+
+Current config: 
+0 0 .
+. . .
+. . .
+
+	Invalid successor: 
+0 0 0
+. . .
+. . .
+
+	Invalid successor: 
+0 0 1
+. . .
+. . .
+
+Valid successor: 
+0 1 .
+. . .
+. . .
+
+Current config: 
+0 1 .
+. . .
+. . .
+
+	Invalid successor: 
+0 1 0
+. . .
+. . .
+
+	Invalid successor: 
+0 1 1
+. . .
+. . .
+
+Valid successor: 
+1 . .
+. . .
+. . .
+
+Current config: 
+1 . .
+. . .
+. . .
+
+Valid successor: 
+1 0 .
+. . .
+. . .
+
+Current config: 
+1 0 .
+. . .
+. . .
+
+	Invalid successor: 
+1 0 0
+. . .
+. . .
+
+	Invalid successor: 
+1 0 1
+. . .
+. . .
+
+Valid successor: 
+1 1 .
+. . .
+. . .
+
+Current config: 
+1 1 .
+. . .
+. . .
+
+	Invalid successor: 
+1 1 0
+. . .
+. . .
+
+	Invalid successor: 
+1 1 1
+. . .
+. . .
+
+No solution exists!
+Elapsed time: 0.001 seconds.
+15 configurations generated.

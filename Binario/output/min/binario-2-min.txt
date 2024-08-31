@@ -1,0 +1,12 @@
+File: data/binario-2.txt
+Dim: 2
+Initial config:
+. .
+. .
+
+Solution:
+0 1
+1 0
+
+Elapsed time: 0.001 seconds.
+9 configurations generated.

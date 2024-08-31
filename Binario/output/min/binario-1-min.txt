@@ -1,0 +1,8 @@
+File: data/binario-1.txt
+Dim: 1
+Initial config:
+.
+
+No solution exists!
+Elapsed time: 0.0 seconds.
+3 configurations generated.

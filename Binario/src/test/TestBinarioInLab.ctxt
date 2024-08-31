@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TestBinarioInLab
+comment0.text=\r\n\ A\ Junit\ 5\ unit\ test\ for\ the\ In-Lab\ activity.\r\n
+comment1.params=
+comment1.target=void\ testLoad()
+comment1.text=Test\ loading\ a\ puzzle\ file\ and\ fully\ storing\ all\ the\ data.
+comment2.params=
+comment2.target=void\ testSuccessors1()
+comment2.text=Test\ successors\ for\ binario-1.txt
+comment3.params=
+comment3.target=void\ testSuccessors2()
+comment3.text=Test\ successors\ for\ binario-2.txt
+numComments=4

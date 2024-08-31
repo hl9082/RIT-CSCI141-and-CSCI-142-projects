@@ -1,0 +1,20 @@
+File: data/binario-6.txt
+Dim: 6
+Initial config:
+1 . . 0 . .
+. . 0 0 . 1
+. 0 0 . . 1
+. . . . . .
+0 0 . 1 . .
+. 1 . . 0 0
+
+Solution:
+1 0 1 0 1 0
+0 1 0 0 1 1
+1 0 0 1 0 1
+0 1 1 0 1 0
+0 0 1 1 0 1
+1 1 0 1 0 0
+
+Elapsed time: 0.0 seconds.
+112 configurations generated.
