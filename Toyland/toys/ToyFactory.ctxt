@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ToyFactory
+comment0.text=\r\n\ The\ ToyFactory\ follows\ the\ "factory\ method\ pattern"\ and\ is\ used\ to\ create\r\n\ and\ return\ new\ toys.\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=toyLine
+comment1.target=IToy\ makeToy(java.lang.String)
+comment1.text=\r\n\ Given\ a\ line\ of\ toy\ data,\ create\ and\ return\ the\ specific\ type\ of\ toy.\r\n\r\n\ @param\ toyLine\ a\ line\ of\ data\ from\ the\ toy\ data\ file\r\n\ @return\ a\ new\ IToy\r\n
+numComments=2

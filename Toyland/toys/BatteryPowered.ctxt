@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BatteryPowered
+comment0.text=\r\n\ BatteryPowered\ is\ an\ abstract\ subclass\ of\ Toy.\ \r\n\ RCCar\ and\ Robot\ inherit\ from\ this\ class\ to\ obtain\ \r\n\ its\ state\ and\ behaviors.\r\n\r\n\ @author\ HUY\ LE\r\n\ @author\ RIT\r\n
+comment1.params=productCode\ name\ numBatteries
+comment1.target=BatteryPowered(int,\ java.lang.String,\ int)
+comment1.text=\r\n\ A\ constructor\ that\ takes\ the\ product\ code,\ name\ and\ \r\n\ number\ \r\n\ of\ batteries.\r\n\ @param\ productCode\r\n\ @param\ name\r\n\ @param\ numBatteries\r\n
+comment2.params=
+comment2.target=int\ getBatteryLevel()
+comment2.text=\r\n\ Returns\ the\ current\ battery\ level\ (starts\ at\ FULLY_CHARGED).\r\n\ @return\ batteryLevel.\r\n
+comment3.params=
+comment3.target=int\ getNumBatteries()
+comment3.text=\r\n\ Returns\ the\ number\ of\ batteries.\r\n\ @return\ numBatteries.\r\n
+comment4.params=time
+comment4.target=void\ useBatteries(int)
+comment4.text=\r\n\ When\ played\ with\ the\ batteries\ are\ used\ and\ the\ \r\n\ following\ things\ happen\ in\ order\:\r\n\ 1.The\ battery\ level\ is\ reduced\ by\:\ time\ +\ number-of-batteries.\r\n\ 2.If\ the\ battery\ level\ is\ depleted,\ \r\n\ the\ following\ happens\ in\ order\:\r\n\ \ \ \ 1.The\ battery\ level\ is\ capped\ at\ DEPLETED\r\n\ \ \ \ 2.A\ tab\ indented,\ "\\t",\ depletion\ message\ is\ \r\n\ \ \ \ displayed\ in\ the\ format\:DEPLETED\:toy-toString\r\n\ \ \ \ 3.The\ battery\ level\ is\ restored\ to\ FULLY_CHARGED.\r\n\ \ \ \ 4.A\ tab\ indented,\ "\\t",\ recharge\ message\ is\ \r\n\ \ \ \ displayed\ in\ the\ format\:RECHARGED\:toy-toString\r\n@param\ the\ time\ that\ the\ batteries\ are\ used.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ \ Returns\ a\ string\ representation\ in\ the\ format\:\r\n\ \ Toy{PC\:?,\ N\:?,\ H\:?,\ R\:?,\ W\:?},\ BatteryPowered{BL\:?,\ NB\:?}\r\n\ The\ Toy\ part\ of\ the\ string\ comes\ from\ Toy's\ toString()\r\n\ \ \ \ \ BL\ for\ the\ battery\ level\r\n\ \ \ \ \ NB\ for\ the\ number\ of\ batteries\r\n\ For\ example\:\r\n\ Toy{PC\:300,\ N\:Herbie,\ H\:101,\ R\:true,\ W\:45.0},\ \r\n\ BatteryPowered{BL\:100,\ NB\:4}\r\n
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ActionFigure
+comment0.text=\r\n\ ActionFigure\ is\ a\ concrete\ class\ that\ inherits\ from\ Doll.\r\n\r\n\ @author\ HUY\ LE\r\n\ @author\ RIT\r\n
+comment1.params=name\ age\ speak
+comment1.target=ActionFigure(java.lang.String,\ int,\ java.lang.String)
+comment1.text=\r\n\ A\ constructor\ that\ takes\ the\ name,\ age\ and\ spoken\ catchphrase.\r\n\ All\ action\ figures\ have\ HAIR_COLOR\ (orange)\ hair.\ \r\n\ The\ unique\ product\ code\ starts\ at\ 500\ and\ increases\ by\ \r\n\ 1\ each\ time\ a\ new\ one\ is\ created.\r\n\ @param\ name\ actionfigure's\ name.\r\n\ @param\ age\ actionfigure's\ age.\r\n\ @param\ speak\ the\ actionfigure's\ catchphrase.\r\n
+comment2.params=
+comment2.target=int\ getEnergyLevel()
+comment2.text=\r\n\ Returns\ the\ energy\ level\ \r\n\ (starts\ at\ MIN_ENERGY_LEVEL\ and\ \r\n\ increases\ when\ played\ with).\r\n\ @return\ energy_level\r\n
+comment3.params=time
+comment3.target=void\ specialPlay(int)
+comment3.text=\r\n\ The\ following\ things\ happen\ in\ order\:\r\n\ 1.A\ tab\ indented,\ "\\t",\ \r\n\ message\ is\ displayed\ to\ standard\ output\ \r\n\ in\ the\ format\ (where\ the\ energy\ formula\ \r\n\ is\ computed\ as\:\ energy\ *\ time)\:\r\n{name}\ kung\ foo\ chops\ with\ {energy-formula}\ \r\nenergy\!\r\n\ For\ example\:\r\n\ He-man\ kung\ foo\ chops\ with\ 46\ energy\!\r\n\ 2.The\ energy\ is\ increased\ by\ 1.\r\n\ 3.The\ special\ play\ of\ Doll\ is\ called.\r\n\ @param\ time\ the\ time\ that\ the\ toy\ is\ played\ with.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Returns\ a\ string\ representation\ in\ the\ format\:\r\n\ Toy{PC\:?,\ N\:?,\ H\:?,\ R\:?,\ W\:?},\ \r\n\ Doll{HC\:?,\ A\:?,\ S\:?},\ ActionFigure{E\:?}\r\n\ The\ Toy\ part\ of\ the\ string\ comes\ from\ \r\n\ Toy's\ toString()\r\n\ The\ Doll\ part\ of\ the\ string\ comes\ from\ \r\n\ Doll's\ toString()\r\n\ E\ for\ the\ energy\r\n\ For\ example\:\r\n\ Toy{PC\:500,\ N\:He-man,\ H\:63,\ R\:false,\ W\:60.0},\ \r\n\ Doll{HC\:ORANGE,\ A\:30,\ S\:By_the_power_of_Grayskull\!},\ \r\n\ ActionFigure{E\:3}\r\n\ @return\ a\ string\ representation\ in\ the\ format.\r\n
+numComments=5

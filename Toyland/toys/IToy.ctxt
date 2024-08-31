@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=IToy
+comment0.text=\r\n\ IToy\ is\ an\ interface\ for\ the\ public\ behaviors\ of\ Toy.\r\n\r\n\ @author\ RIT\r\n\ @author\ Huy\ Le\r\n\ \r\n
+comment1.params=
+comment1.target=int\ getProductCode()
+comment1.text=\r\n\ Returns\ the\ unique\ integer\ product\ code\ of\ the\ toy.\r\n\ @return\ the\ unique\ integer\ product\ code\ of\ the\ toy.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Returns\ the\ name\ of\ the\ toy.\r\n
+comment3.params=
+comment3.target=int\ getHappiness()
+comment3.text=\r\n\ Returns\ the\ toys\ happiness\ \r\n\ (starts\ at\ INITIAL_HAPPINESS\ and\ \r\n\ increases\ when\ played\ with).\r\n\r\n
+comment4.params=
+comment4.target=boolean\ isRetired()
+comment4.text=\r\n\ A\ toy\ is\ retired\ when\ its\ happiness\ level\ \r\n\ reaches/exceeds\ MAX_HAPPINESS\ (starts\ as\ not\ retired).\r\n
+comment5.params=
+comment5.target=double\ getWear()
+comment5.text=\r\n\ Returns\ the\ toys\ current\ wear\ amount\ \r\n\ (starts\ at\ INITIAL_WEAR\ and\ increases\ when\ played\ with).\r\n
+comment6.params=amount
+comment6.target=void\ increaseWear(double)
+comment6.text=\r\n\ Increase\ the\ wear\ by\ the\ amount\ passed\ in.\r\n
+comment7.params=time
+comment7.target=void\ play(int)
+comment7.text=\r\n\ \r\n\ \r\n\ When\ played\ with,\ the\ following\ things\ happen\ in\ order\:\r\n\ \ 1.A\ playing\ message\ is\ displayed\ to\ standard\ output\ \r\n\ \ in\ the\ format\ \r\n\ (\#\#\ is\ the\ number\ of\ minutes)\:\r\n\ PLAYING(\#\#)\:\ toy-toString\r\n\ For\ example\:\r\n\ PLAYING(40)\:\ Toy{PC\:100,\ N\:Play-Doh,\ H\:0,\ R\:false,\ W\:0.0},\ \r\n\ PlayDough{C\:GREEN}\ \ \ \ \ \ \ \ \ \ \r\n\ 2.The\ special\ play\ is\ invoked\ for\ the\ same\ number\ of\ minutes.\r\n\ 3.The\ happiness\ of\ the\ toy\ increases\ by\ the\ number\ of\ minutes.\r\n\ 4.If\ the\ happiness\ of\ the\ toy\ reaches\ or\ exceeds\ MAX_HAPPINESS,\ \r\n\ the\ toy\ retires\ and\ displays\ a\ message\ to\ standard\ output\ in\ the\ \r\n\ format\:\ RETIRED\:\ toy-toString\r\n\ For\ example\:\r\n\ RETIRED\:\ Toy{PC\:100,\ N\:Play-Doh,\ H\:101,\ R\:true,\ \r\n\ \ \ \ W\:5.050000000000001},\r\n\ PlayDough{C\:GREEN}\r\n
+numComments=8

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ToyLand
+comment0.text=\r\n\ The\ main\ program\ is\ run\ on\ the\ command\ line\ with\ a\ toy\ file\:\r\n\r\n\ $\ java\ ToyLand\ filename\r\n\r\n\ 1.\ The\ toys\ are\ read\ into\ the\ file\ into\ a\ list\ of\ active\ toys.\r\n\ 2.\ The\ toys\ are\ played\ with\ a\ random\ amount\ of\ time.\ \ While\r\n\ \ \ \ \ \ active\ each\ one\ gets\ put\ on\ the\ back\ of\ the\ active\ toy\ list.\r\n\ \ \ \ \ \ When\ they\ retire\ after\ reaching\ maximum\ happiness,\ they\r\n\ \ \ \ \ \ move\ to\ a\ list\ of\ retired\ toys.\r\n\ 3.\ Some\ statistics\ are\ displayed\ about\ the\ running\ of\ the\ simulation\r\n\ \ \ \ \ \ and\ the\ toys\ that\ were\ played\ with.\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=
+comment1.target=int\ getRandomTime()
+comment1.text=Generate\ the\ next\ random\ time\ in\ the\ range\ MIN_TIME\ to\ MAX_TIME
+comment2.params=filename
+comment2.target=ToyLand(java.lang.String)
+comment2.text=\r\n\ Read\ the\ toys\ in\ from\ filename\ and\ store\ in\ the\ active\ toy\ list.\r\n\r\n\ @param\ filename\ the\ toy\ filename\r\n
+comment3.params=
+comment3.target=void\ playTime()
+comment3.text=\r\n\ Play\ with\ the\ toys\ until\ they\ are\ all\ retired.\r\n\r\n\ 1.\ Remove\ the\ toy\ from\ the\ front\ of\ the\ active\ toys\r\n\ 2.\ Generate\ the\ next\ random\ time\ and\ play\ the\ toy\ for\ that\ amount\r\n\ 3.\ If\ the\ toy\ is\ not\ retired,\ add\ it\ to\ the\ back\ of\ the\ active\ toy\ list,\r\n\ \ \ \ otherwise\ add\ it\ to\ the\ back\ of\ the\ retired\ toys\r\n
+comment4.params=
+comment4.target=void\ displayStatistics()
+comment4.text=\r\n\ Generate\ the\ following\ statistics\ about\ the\ simulation\ that\ was\ just\ run.\r\n\r\n\ For\ each\ retired\ toy,\ print\ the\ final\ state\ of\ the\ toy.\r\n\ Print\ the\ total\ number\ of\ toys\r\n\ Print\ the\ total\ happiness\ of\ all\ toys\r\n\ Print\ the\ average\ wear\ of\ all\ toys\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ The\ main\ program\ requires\ the\ toy\ data\ file\ be\ provided.\ \ It\ then\r\n\ load\ the\ toys,\ plays\ with\ them,\ and\ displays\ some\ final\ statistics.\r\n\r\n\ @param\ args\ command\ line\ arguments\ (the\ filename)\r\n
+numComments=6

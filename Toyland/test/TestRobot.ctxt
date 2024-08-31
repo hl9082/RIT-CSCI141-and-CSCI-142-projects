@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TestRobot
+comment0.text=\r\n\ JUnit\ 5\ unit\ test\ for\ Robot\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testFirstRobot()
+comment2.text=Test\ all\ aspects\ of\ the\ first\ Robot
+comment3.params=
+comment3.target=void\ testSecondRobot()
+comment3.text=More\ testing\ with\ second\ Robot
+numComments=4

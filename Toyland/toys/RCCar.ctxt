@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RCCar
+comment0.text=\r\n\ RCCar\ is\ a\ concrete\ class\ that\ inherits\ from\ BatteryPowered.\r\n\r\n\ @author\ HUY\ LE\r\n\ @author\ RIT\r\n
+comment1.params=name\ numBatteries
+comment1.target=RCCar(java.lang.String,\ int)
+comment1.text=\r\n\ A\ constructor\ that\ takes\ the\ name\ and\ number\ of\ batteries.\ \r\n\ The\ unique\ product\ code\ starts\ at\ 300\ and\ increases\ by\ \r\n\ 1\ each\ time\ a\ new\ one\ is\ created.\r\n\ @param\ name\ the\ car's\ name.\r\n\ @param\ numBatteries\ the\ car's\ battery\ number.\r\n
+comment2.params=
+comment2.target=int\ getSpeed()
+comment2.text=\r\n\ Returns\ the\ current\ speed\ \r\n\ (starts\ at\ STARTING_SPEED\ and\ increases\ when\ played\ with).\r\n\ @return\ speed\r\n
+comment3.params=time
+comment3.target=void\ specialPlay(int)
+comment3.text=\r\n\ The\ following\ things\ happen\ in\ order\:\r\n\ 1.\ A\ tab\ indented,\ "\\t",\ message\ is\ displayed\ to\ \r\n\ standard\ output\ in\ the\ format\:\ \r\n\ {name}\ races\ around\ at\ {speed}mph\!\r\n\ For\ example\:\ Herbie\ races\ around\ at\ 10mph\!\r\n\ 2.\ The\ batteries\ are\ used\ for\ the\ amount\ of\ time.\r\n\ 3.\ The\ wear\ increases\ by\ the\ current\ speed.\r\n\ 4.The\ speed\ increases\ by\ SPEED_INCREASE.\r\n\ @param\ time\ the\ time\ amount\ in\ which\ the\ car\ runs.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Returns\ a\ string\ representation\ in\ the\ format\:\r\n\ Toy{PC\:?,\ N\:?,\ H\:?,\ R\:?,\ W\:?},\ \r\n\ BatteryPowered{BL\:?,\ NB\:?},\ RCCar{S\:?}\r\n\ The\ Toy\ part\ of\ the\ string\ comes\ from\ Toy's\ toString()\r\n\ The\ BatteryPowered\ part\ of\ the\ string\ comes\ from\ \r\n\ BatteryPowered's\ toString()\r\n\ S\ for\ the\ speed\r\n\ For\ example\:\r\n\ Toy{PC\:300,\ N\:Herbie,\ H\:40,\ R\:false,\ W\:10.0},\ \r\n\ BatteryPowered{BL\:56,\ NB\:4},\ RCCar{S\:15}\r\n\ @return\ a\ string\ representation\ of\ the\ RCCar.\r\n
+numComments=5

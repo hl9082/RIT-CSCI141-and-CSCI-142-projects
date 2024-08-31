@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PlayDough
+comment0.text=\r\n\ PlayDough\ is\ a\ concrete\ class\ that\ inherits\ from\ Toy.\r\n\r\n\ @author\ RIT\r\n\ @author\ HUY\ LE\r\n\ \r\n
+comment1.params=name\ color
+comment1.target=PlayDough(java.lang.String,\ Color)
+comment1.text=\r\n\ A\ constructor\ that\ takes\ the\ name\ and\ color\ \r\n\ (specified\ with\ the\ Color\ enum).\ \r\n\ The\ unique\ product\ code\ starts\ at\ 100\ and\ increases\ \r\n\ by\ 1\ each\ time\ a\ new\ one\ is\ created.\r\n\ @param\ name\ the\ name\ of\ the\ toy\r\n\ @param\ color\ the\ color\ of\ the\ toy\r\n
+comment2.params=
+comment2.target=Color\ getColor()
+comment2.text=\r\n\ Returns\ the\ color.\r\n\ @return\ the\ color\ of\ the\ toy.\r\n
+comment3.params=time
+comment3.target=void\ specialPlay(int)
+comment3.text=\r\n\ The\ following\ things\ happen\ in\ order\:\r\n\ A\ tab\ indented,\ "\\t",\ message\ is\ displayed\ to\ \r\n\ standard\ output\ in\ the\ format\:\r\n\ Arts\ and\ crafting\ with\ {color}\ {name}\r\n\ For\ example\:\ Arts\ and\ crafting\ with\ GREEN\ Play-Doh\r\n\ The\ wear\ increases\ by\ a\ multiple\ of\ WEAR_MULTIPLIER\ *\ time.\r\n\ @param\ time\ the\ time\ that\ the\ toy\ is\ played\ with.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Returns\ a\ string\ representation\ in\ the\ format\:\r\n\ Toy{PC\:?,\ N\:?,\ H\:?,\ R\:?,\ W\:?},\ PlayDough{C\:?}\r\n\ The\ Toy\ part\ of\ the\ string\ comes\ from\ Toy's\ toString()\r\n\ C\ for\ the\ color\r\n\ For\ example\:\r\n\ Toy{PC\:100,\ N\:Play-Doh,\ H\:40,\ R\:false,\ W\:2.0},\ \r\n\ PlayDough{C\:GREEN}\r\n
+numComments=5

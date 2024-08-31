@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Doll
+comment0.text=\r\n\ Doll\ is\ a\ concrete\ class\ that\ inherits\ from\ Toy.\r\n\r\n\ @author\ HUY\ LE\r\n\ @author\ RIT\r\n
+comment1.params=name\ hairColor\ age\ speak
+comment1.target=Doll(java.lang.String,\ Color,\ int,\ java.lang.String)
+comment1.text=\r\n\ A\ constructor\ that\ takes\ the\ name,\ hair\ color,\ age\ and\ spoken\ catchphrase.\r\n\ @param\ name\ the\ name\ of\ the\ doll.\r\n\ @param\ hairColor\ the\ haircolor\ of\ the\ doll.\r\n\ @param\ age\ the\ age\ of\ the\ doll.\r\n\ @param\ speak\ the\ catchphrase\ of\ the\ doll.\r\n
+comment2.params=productCode\ name\ hairColor\ age\ speak
+comment2.target=Doll(int,\ java.lang.String,\ Color,\ int,\ java.lang.String)
+comment2.text=\r\n\ A\ constructor\ used\ by\ subclass\ ActionFigure\ that\ takes\ its\ \r\n\ product\ code\ plus\ all\ the\ same\ arguments\ as\ \r\n\ the\ first\ constructor.\r\n\ @param\ productCode\ the\ product\ code\ of\ the\ doll.\r\n\ @param\ name\ the\ name\ of\ the\ doll.\r\n\ @param\ hairColor\ the\ haircolor\ of\ the\ doll.\r\n\ @param\ age\ the\ age\ of\ the\ doll.\r\n\ @param\ speak\ the\ catchphrase\ of\ the\ doll.\ \r\n
+comment3.params=
+comment3.target=Color\ getHairColor()
+comment3.text=\r\n\ Returns\ the\ hair\ color.\r\n\ @return\ hairColor\r\n
+comment4.params=
+comment4.target=int\ getAge()
+comment4.text=\r\n\ Returns\ the\ age.\r\n\ @return\ age\r\n
+comment5.params=
+comment5.target=java.lang.String\ getSpeak()
+comment5.text=\r\n\ Returns\ the\ catchphrase.\r\n\ @return\ speak.\r\n
+comment6.params=time
+comment6.target=void\ specialPlay(int)
+comment6.text=\r\n\ The\ following\ things\ happen\ in\ order\:\r\n\ 1.A\ tab\ indented,\ "\\t",\ message\ is\ displayed\ to\ standard\ output\ in\ \r\n\ the\ format\:\r\n\ {name}\ brushes\ their\ {hair\ color}\ hair\ and\ says,\ "{speak}"\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ For\ example\:\r\n\ GabbyGabby\ brushes\ their\ RED\ hair\ and\ says,\ "Will_you_be_my_friend?"\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ The\ wear\ increases\ by\ the\ age.\r\n\ @param\ time\ the\ amount\ of\ time\ that\ the\ doll\ is\ played\ with.\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Returns\ a\ string\ representation\ in\ the\ format.\r\n\ @return\ a\ string\ representation\ in\ the\ format.\r\n
+numComments=8

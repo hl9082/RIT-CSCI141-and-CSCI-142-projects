@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Color
+comment0.text=\r\n\ An\ enumerated\ type\ for\ some\ common\ colors.\r\n\r\n\ To\ specify\ a\ color,\ e.g.\ BLUE\:\ \ Color.BLUE\r\n\r\n\ When\ displayed\ to\ standard\ output,\ the\ toString()\:\ "BLUE"\r\n\r\n\ @author\ RIT\ CS\r\n
+numComments=1

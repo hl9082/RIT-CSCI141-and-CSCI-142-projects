@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Robot
+comment0.text=\r\n\ Robot\ is\ a\ concrete\ class\ that\ inherits\ from\ BatteryPowered.\r\n\r\n\ @author\ HUY\ LE\r\n\ @author\ RIT\r\n
+comment1.params=name\ numBatteries\ flying
+comment1.target=Robot(java.lang.String,\ int,\ boolean)
+comment1.text=\r\n\ A\ constructor\ that\ takes\ the\ name,\ \r\n\ number\ of\ batteries\ and\ whether\ it\ flies\ or\ not.\ \r\n\ The\ unique\ product\ code\ starts\ at\ 400\ and\ increases\ by\ \r\n\ 1\ each\ time\ a\ new\ one\ is\ created.\r\n\ @param\ name\ the\ name\ of\ the\ robot.\r\n\ @param\ numBatteries\ the\ batteries\ number\ of\ the\ robot.\r\n\ @param\ flying\ to\ check\ whether\ the\ robot\ is\ flying.\r\n
+comment2.params=
+comment2.target=boolean\ isFlying()
+comment2.text=\r\n\ Returns\ whether\ it\ flies\ or\ not.\r\n\ @param\ flying.\r\n
+comment3.params=
+comment3.target=int\ getDistance()
+comment3.text=\r\n\ Returns\ the\ total\ distance\ traveled\ \r\n\ when\ played\ with\ (starts\ at\ INITIAL_SPEED).\r\n\ @return\ distance.\r\n
+comment4.params=time
+comment4.target=void\ specialPlay(int)
+comment4.text=\r\n\ The\ following\ things\ happen\ in\ order\:\r\n\ 1.\ If\ flying\:\r\n\ \ \ \ 1.\ The\ distance\ is\ increased\ by\ time\ *\ FLY_SPEED\r\n\ \ \ \ 2.\ A\ tab\ indented,\ "\\t",\ message\ is\ displayed\ to\ standard\ output\ \r\n\ \ \ \ in\ the\ format\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {name}\ is\ flying\ around\ with\ total\ distance\:\ {distance}\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ For\ example\:\r\n\ \ \ \ \ \ \ \ \ \ \ Voltron\ is\ flying\ around\ with\ total\ distance\:\ 2675\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ 3.The\ wear\ increases\ by\ FLY_SPEED\r\n2.If\ not\ flying\:\r\n\ \ \ \ \ 1.The\ distance\ is\ increased\ by\ time\ *\ RUN_SPEED\r\n\ \ \ \ \ 2.A\ tab\ indented,\ "\\t",\ message\ is\ displayed\ to\ standard\ \r\n\ \ \ \ \ output\ in\ the\ format\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {name}\ is\ running\ around\ with\ total\ distance\:\ {distance}\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ For\ example\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Wall-E\ is\ running\ around\ with\ total\ distance\:\ 700\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ 3.The\ wear\ increases\ by\ RUN_SPEED\r\n3.The\ batteries\ are\ used\ for\ the\ amount\ of\ time.\r\n@param\ time\ the\ time\ the\ robot\ is\ played\ with.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ a\ string\ representation\ in\ the\ format\:\r\n\ \ \ Toy{PC\:?,\ N\:?,\ H\:?,\ R\:?,\ W\:?},\ BatteryPowered{BL\:?,\ NB\:?},\ \ Robot{F\:?,\ D\:?}\r\n\ The\ Toy\ part\ of\ the\ string\ comes\ from\ Toy's\ toString()\r\n\ The\ BatteryPowered\ part\ of\ the\ string\ comes\ from\ BatteryPowered's\ toString()\r\n\ F\ for\ flying\ or\ not\ (true\ or\ false)\r\n\ D\ for\ distance\r\n\ For\ example\:\r\n\ Toy{PC\:403,\ N\:IronGiant,\ H\:73,\ R\:false,\ W\:50.0},\ \r\n\ BatteryPowered{BL\:3,\ NB\:12},\ Robot{F\:true,\ D\:1825}\r\n\ @return\ the\ string\ representation\ of\ the\ robot.\r\n
+numComments=6
