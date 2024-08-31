@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Configuration
+comment0.text=\r\n\ The\ representation\ of\ a\ single\ configuration\ for\ a\ puzzle.\r\n\ The\ Backtracker\ depends\ on\ these\ routines\ in\ order\ to\r\n\ solve\ a\ puzzle.\ \ Therefore,\ all\ puzzles\ must\ implement\ this\r\n\ interface.\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=
+comment1.target=java.util.Collection\ getSuccessors()
+comment1.text=\r\n\ Get\ the\ collection\ of\ successors\ from\ the\ current\ one.\r\n\ \r\n\ @return\ All\ successors,\ valid\ and\ invalid\r\n
+comment2.params=
+comment2.target=boolean\ isValid()
+comment2.text=\r\n\ Is\ the\ current\ configuration\ valid\ or\ not?\r\n\ \r\n\ @return\ true\ if\ valid;\ false\ otherwise\r\n
+comment3.params=
+comment3.target=boolean\ isGoal()
+comment3.text=\r\n\ Is\ the\ current\ configuration\ a\ goal?\r\n\ @return\ true\ if\ goal;\ false\ otherwise\r\n
+numComments=4

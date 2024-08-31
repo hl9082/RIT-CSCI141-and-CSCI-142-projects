@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Hitori
+comment0.text=\r\n\ CSCI-142\ Computer\ Science\ 2\ Recitation\ Pair\ Exercise\r\n\ 13-DFS_Backtracking\r\n\ Hitori\r\n\r\n\ The\ main\ program\ for\ the\ Hitori\ puzzle\ solver\ that\ uses\ backtracking.\r\n\r\n\ $\ java\ Hitori\ input4.txt\r\n\ Initial\ config\:\r\n\ 1\ 4\ 3\ 2\ 1\r\n\ 3\ 1\ 2\ 3\ 2\r\n\ 3\ 2\ 2\ 3\ 1\r\n\ 4\ 2\ 1\ 5\ 3\r\n\ 1\ 3\ 3\ 1\ 3\r\n\ Elapsed\ time\:\ 0.036\ seconds.\r\n\ Solution\:\r\n\ 1\ 4\ 3\ 2\ X\r\n\ X\ 1\ X\ 3\ 2\r\n\ 3\ X\ 2\ X\ 1\r\n\ 4\ 2\ 1\ 5\ 3\r\n\ X\ 3\ X\ 1\ X\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
