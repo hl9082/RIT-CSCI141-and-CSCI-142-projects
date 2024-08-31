@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DungeonCrawler
+comment0.text=\r\n\ The\ main\ program\ for\ the\ dungeon\ crawler.\ \ It\ is\ run\ on\ the\ command\r\n\ line\ with\ the\ dungeon\ file,\ e.g.\:\r\n\r\n\ $\ java\ DungeonCrawler\ data/dungeon-3.txt\r\n\r\n\r\n\ @author\ RIT\ CS\r\n\ @author\ Huy\ Le\r\n
+comment1.params=filename
+comment1.target=DungeonCrawler(java.lang.String)
+comment1.text=\r\n\ Create\ the\ instance\ and\ construct\ the\ dungeon\ from\ the\ file.\ \ Then\ print\ the\ \r\n\ initial\ dungeon.\r\n\r\n\ @param\ filename\ the\ dungeon\ file\r\n\ @throws\ IOException\ if\ there\ is\ a\ problem\ reading\ the\ file\r\n\ @throws\ DungeonException\ if\ there\ is\ an\ error\ in\ the\ dungeon\ file\r\n
+comment2.params=
+comment2.target=void\ findTreasures()
+comment2.text=\r\n\ Find\ all\ the\ treasures\ in\ the\ dungeon,\ starting\ at\ the\ home\ position\r\n\ find\ the\ shortest\ path\ to\ the\ first\ treasure.\ \ For\ each\ additional\ treasure,\r\n\ find\ the\ shortest\ path\ from\ the\ last\ collected\ treasure\ to\ the\ next\ uncollected\ one.\r\n\ When\ the\ last\ treasure\ is\ collected,\ find\ the\ shortest\ path\ from\ it\ to\ the\r\n\ home\ position.\ \ All\ along\ we\ the\ way\ we\ keep\ track\ of\ the\ total\ number\ of\ steps\ taken.\r\n
+comment3.params=src\ dest
+comment3.target=Coordinates\ BFS(Coordinates,\ Coordinates)
+comment3.text=\r\n\ This\ function\ performs\ the\ Breadth-First\ Search\ from\ the\ source\ to\ the\ destination\r\n\ to\ find\ the\ destination\ of\ the\ path\ from\ source\ to\ destination.\r\n\ @param\ src\ the\ source.\r\n\ @param\ dest\ the\ dest.\r\n\ @return\ the\ destination.\r\n
+comment4.params=queue\ hash_table\ dest
+comment4.target=java.util.LinkedList\ buildpath(java.util.List,\ java.util.Map,\ Coordinates)
+comment4.text=\r\n\ Given\ a\ dequeue\ of\ traversed\ nodes\ and\ predecessor\ hash\ table,\r\n\ we\ construct\ a\ shortest\ path\ from\ the\ source\ to\ the\ destination.\r\n\ @param\ deque\ the\ deque\ of\ traversed\ nodes.\r\n\ @param\ hash_table\ the\ predecessor\ map.\r\n\ @param\ dest\ the\ destination.\r\n\ @return\ an\ orderedList\ from\ start\ to\ end\ of\ the\ shortest\ path.\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ The\ main\ method.\r\n\r\n\ @param\ args\ command\ line\ arguments\ (dungeon\ file)\r\n
+numComments=6

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=TestDungeon
+comment1.params=
+comment1.target=void\ setUpStreams()
+comment10.params=
+comment10.target=void\ testDisplay()
+comment2.params=
+comment2.target=void\ restoreStreams()
+comment3.params=dungeon
+comment3.target=void\ generateNeighbors(src.dungeon.IDungeon)
+comment3.text=\r\n\ This\ helper\ function\ builds\ the\ complete\ collection\ of\ neighbors\r\n\ for\ every\ cell\ in\ the\ 3x4\ dungeon\ from\ dungeon3.txt.\r\n\ @param\ dungeon\ the\ dungeon\r\n\ @return\ full\ collection\ of\ neighbors\r\n
+comment4.params=
+comment4.target=void\ testDimensions()
+comment5.params=
+comment5.target=void\ testHasCoordinates()
+comment6.params=
+comment6.target=void\ testNeighbors()
+comment7.params=
+comment7.target=void\ testHome()
+comment8.params=
+comment8.target=void\ testTreasures()
+comment9.params=
+comment9.target=void\ testCells()
+numComments=11

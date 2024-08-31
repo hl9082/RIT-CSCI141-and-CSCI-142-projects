@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.target=Dungeon
+comment0.text=\r\n\ Student\ implementation\ of\ the\ dungeon.\r\n\r\n\ @author\ Huy\ Le\r\n
+comment1.params=filename
+comment1.target=Dungeon(java.lang.String)
+comment1.text=\r\n\ Create\ a\ new\ dungeon\ from\ a\ file.\r\n\r\n\ @param\ filename\ the\ name\ of\ the\ dungeon\ file\r\n\ @throws\ IOException\ \ \ \ \ \ if\ a\ problem\ is\ encountered\ reading\ the\ file\r\n\ @throws\ DungeonException\ if\ there\ is\ an\ error\ in\ the\ dungeon\ file\r\n
+comment10.params=location
+comment10.target=java.util.Collection\ getNeighbors(Coordinates)
+comment10.text=\r\n\ Get\ the\ neighbors\ of\ a\ cell\ in\ the\ dungeon.\r\n\ @param\ location\ the\ cell.\r\n\ @return\ the\ cell's\ neighbors.\r\n
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=int\ getRows()
+comment2.text=\r\n\ Return\ the\ number\ of\ rows\ in\ the\ dungeon.\r\n\ @return\ rows.\r\n
+comment3.params=
+comment3.target=int\ getCols()
+comment3.text=\r\n\ Return\ the\ number\ of\ columns\ in\ the\ dungeon.\r\n\ @return\ cols.\r\n
+comment4.params=location
+comment4.target=boolean\ hasCoordinates(Coordinates)
+comment4.text=\r\n\ Check\ whether\ the\ location\ coordinates\ are\ valid.\r\n\ @param\ location\ -\ the\ location\r\n\ @return\ whether\ the\ cell\ is\ valid\ or\ not.\r\n
+comment5.params=src\ dest
+comment5.target=boolean\ isNeighbor(Coordinates,\ Coordinates)
+comment5.text=\r\n\ Check\ whether\ the\ source\ and\ the\ destination\ are\ neighbors.\r\n\ @param\ src-the\ source\ cell.\r\n\ @param\ dest\ -\ the\ destination\ cell.\r\n\ @return\ whether\ they\ are\ neighbors.\r\n
+comment6.params=location
+comment6.target=java.lang.String\ getCell(Coordinates)
+comment6.text=\r\n\ Get\ the\ string\ value\ of\ the\ cell\ at\ a\ location\ in\ the\ dungeon.\ \r\n\ It\ returns\ one\ of\ three\ things.\ \r\n\ The\ HOME\ cell\ for\ the\ home\ position,\ the\ treasure\ name\ \r\n\ if\ the\ treasure\ is\ not\ collected\ yet,\ or\ \r\n\ CELL\ if\ the\ treasure\ was\ collected.\r\n\ @param\ location\ \=\ the\ location.\r\n\ @return\ the\ string\ at\ that\ location.\r\n
+comment7.params=
+comment7.target=Coordinates\ getHome()
+comment7.text=\r\n\ Get\ the\ home\ position\ (must\ exist).\r\n\ @return\ home\ position.\r\n
+comment8.params=location
+comment8.target=boolean\ hasTreasure(Coordinates)
+comment8.text=\r\n\ Is\ there\ a\ treasure\ at\ a\ specific\ location?\r\n\ @param\ location\ -\ the\ location.\r\n\ @return\ whether\ there\ is\ a\ treasure\ at\ this\ location\ or\ not.\r\n
+comment9.params=
+comment9.target=java.util.Collection\ getTreasures()
+comment9.text=\r\n\ Get\ the\ colletion\ of\ all\ treasures\ in\ the\ dungeon.\r\n\ @return\ the\ treasure\ collection.\r\n
+numComments=12

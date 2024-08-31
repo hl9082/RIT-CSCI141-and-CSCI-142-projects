@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DungeonException
+comment0.text=\r\n\ A\ custom\ exception\ class\ for\ problems\ encountered\ while\ running\r\n\ the\ TreasureHunt\ application.\r\n\r\n\ @author\ RIT\ CS\r\n
+comment1.params=msg
+comment1.target=DungeonException(java.lang.String)
+comment1.text=\r\n\ Construct\ a\ new\ instance.\r\n\r\n\ @param\ msg\ the\ associated\ error\ message\r\n
+numComments=2

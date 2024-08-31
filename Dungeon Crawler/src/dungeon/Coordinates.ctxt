@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Coordinates
+comment0.text=\r\n\ A\ simple\ implementation\ of\ two-dimensional\ integer-based\ coordinates.\r\n\ Note\ that\ this\ class\ is\ a\ record,\ which\ means\r\n\ <ul>\r\n\ \ \ \ \ <li>These\ objects\ are\ immutable.</li>\r\n\ \ \ \ \ <li>\r\n\ \ \ \ \ \ \ \ \ Many\ methods\ are\ provided\ that\ do\ not\ appear\ in\ the\ source.\r\n\ \ \ \ \ \ \ \ \ <ul>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ <li>constructor</li>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ <li>{@link\ \#equals(Object)}</li>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ <li>{@link\ \#hashCode()}</li>\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ <li>accessors</li>\r\n\ \ \ \ \ \ \ \ \ </ul>\r\n\ \ \ \ \ </li>\r\n\ </ul>\r\n\ Java\ records\ also\ supply\ a\ toString\ method,\ but\ this\ is\ being\ overridden\r\n\ here\ in\ favor\ of\ a\ more\ concise\ format.\r\n\r\n\ @param\ row\ the\ row\r\n\ @param\ col\ the\ col\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ @author\ RIT\ CS\r\n
+comment1.params=rowStr\ colStr
+comment1.target=Coordinates(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Initialize\ this\ object\ with\ strings\ representing\ the\ integer\ values.\r\n\ {@link\ Integer\#parseInt(String)}\ is\ used\ to\ parse\ the\ strings.\r\n\ @see\ Coordinates\#Coordinates(int,\ int)\r\n\ @param\ rowStr\ row\ number\ as\ a\ string\r\n\ @param\ colStr\ column\ number\ as\ a\ string\r\n
+comment2.params=coordsStr
+comment2.target=Coordinates(java.lang.String)
+comment2.text=\r\n\ Initialize\ this\ object\ with\ a\ string\ that\ represents\ both\r\n\ integer\ values,\ separated\ by\ a\ command\ with\ no\ space,\r\n\ e.g.\ "10,32"\ ->\ Coordinate(10,\ 32).\r\n\ @see\ Coordinates\#Coordinates(int,\ int)\r\n\ @param\ coordsStr\ the\ string\ coordinates\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ coordinate\ in\ the\ format\r\n\ "(row,col)".\r\n\r\n\ @return\ the\ string\r\n
+comment4.params=other
+comment4.target=int\ compareTo(Coordinates)
+comment4.text=\r\n\ Determine\ natural\ order\ of\ two\ coordinate\ pairs.\r\n\ This\ ordering\ is\ useful\ because\ if\ you\ sort\ a\ list\ of\ coordinates\r\n\ they\ come\ out\ in\ row-major\ order.\r\n\ @param\ other\ the\ second\ pair\ of\ coordinates\r\n\ @return\ negative\ if\ this\ row\ is\ less\ than\ the\ other\ row,\ or\ if\r\n\ \ \ \ \ \ \ \ \ the\ rows\ are\ the\ same,\ if\ this\ column\ is\ less\ than\ the\r\n\ \ \ \ \ \ \ \ \ other\ column;\ 0\ if\ rows\ <u>and</u>\ columns\ are\ equal;\r\n\ \ \ \ \ \ \ \ \ positive\ otherwise\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ The\ main\ method\ demonstrates\ the\ various\ ways\ you\ can\r\n\ use\ the\ Coordinate\ record.\r\n\r\n\ @param\ args\ command\ line\ arguments\ (unused)\r\n
+numComments=6

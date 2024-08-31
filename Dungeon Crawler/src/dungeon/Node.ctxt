@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\r\n\ CSCI-142\ Computer\ Science\ 2\ Recitation\ Presentation\r\n\ 07-GraphIntro\r\n\ Shortet\ Path\r\n\r\n\ This\ is\ the\ representation\ of\ a\ node\ in\ a\ graph.\ \ A\ node\ is\ composed\ of\ a\r\n\ unique\ name,\ and\ a\ list\ of\ neighbor\ Node's.\r\n\ \r\n\ @author\ RIT\ CS\r\n
+comment1.params=location
+comment1.target=Node(Coordinates)
+comment1.text=\r\n\ Constructor\ initializes\ Node\ with\ an\ empty\ list\ of\ neighbors.\r\n\ \r\n\ @param\ name\ string\ representing\ the\ name\ associated\ with\ the\ node.\r\n
+comment2.params=
+comment2.target=Coordinates\ getLocation()
+comment2.text=\r\n\ Get\ the\ location\ associated\ with\ the\ node.\r\n\ \r\n\ @return\ location.\r\n
+comment3.params=
+comment3.target=java.util.Collection\ getNeighbors()
+comment3.text=\r\n\ Method\ to\ return\ the\ adjacency\ list\ for\ this\ node\ containing\ all\ \r\n\ of\ its\ neighbors.\r\n\ \r\n\ @return\ the\ list\ of\ neighbors\ of\ the\ given\ node\r\n
+comment4.params=node
+comment4.target=void\ addNeighbor(Node)
+comment4.text=\r\n\ Add\ a\ neighbor\ to\ this\ node.\ \ Checks\ if\ already\ present,\ and\ does\ not\r\n\ duplicate\ in\ this\ case.\r\n\r\n\ @param\ node\:\ node\ to\ add\ as\ neighbor.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Method\ to\ generate\ a\ string\ associated\ with\ the\ node,\ including\ the\ \r\n\ location\ of\ the\ node\ followed\ by\ the\ names\ of\ its\ neighbors.\ \ Overrides\r\n\ Object\ toString\ method.\r\n\ \r\n\ @return\ string\ associated\ with\ the\ node.\r\n
+comment6.params=other
+comment6.target=boolean\ equals(java.lang.Object)
+comment6.text=\r\n\ \ Two\ Nodes\ are\ equal\ if\ they\ have\ the\ same\ name.\r\n\r\n\ \ @param\ other\ The\ other\ object\ to\ check\ equality\ with\r\n\ \ @return\ true\ if\ equal;\ false\ otherwise\r\n
+comment7.params=
+comment7.target=int\ hashCode()
+comment7.text=\r\n\ The\ hash\ code\ of\ a\ Node\ is\ just\ the\ hash\ code\ of\ the\ treasure's\ name,\ since\ no\r\n\ two\ nodes\ can\ have\ the\ same\ name,\ and\ it\ is\ consistent\ with\ equals()\r\n
+numComments=8
