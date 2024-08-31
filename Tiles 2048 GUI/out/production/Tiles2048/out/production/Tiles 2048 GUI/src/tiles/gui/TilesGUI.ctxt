@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TilesGUI
+comment1.params=
+comment1.target=void\ init()
+comment2.params=primaryStage
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\r\n\ Construct\ the\ layout\ for\ the\ game.\r\n\r\n\ @param\ primaryStage\ container\ (window)\ in\ which\ to\ render\ the\ GUI\r\n
+comment3.params=model\ message
+comment3.target=void\ update(src.tiles.model.TilesModel,\ java.lang.String)
+comment3.text=\r\n\ Called\ by\ the\ model,\ model.TilesModel,\ whenever\ there\ is\ a\ state\ change\r\n\ that\ needs\ to\ be\ updated\ by\ the\ GUI.\r\n\r\n\ @param\ model\ the\ TilesModel\r\n\ @param\ message\ the\ status\ message\ sent\ by\ the\ model\r\n
+comment4.params=
+comment4.target=void\ stop()
+comment4.text=\r\n\ This\ method\ is\ called\ before\ the\ application\ shuts\ down.\r\n\ It\ provides\ a\ convenient\ place\ to\ save\ any\ information\ about\ the\ game\r\n\ before\ closing\ the\ application.\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

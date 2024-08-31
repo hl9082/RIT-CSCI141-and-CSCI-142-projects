@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TilesPTUI
+comment0.text=\r\n\ The\ plain\ text\ UI\ for\ the\ game\ 2048.\ \ This\ class\ encapsulates\ both\r\n\ the\ View\ and\ Controller\ portions\ of\ the\ MVC\ architecture.\r\n\r\n\ @author\ CS\ RIT\r\n
+comment1.params=level
+comment1.target=TilesPTUI(java.lang.String)
+comment1.text=\r\n\ Create\ the\ PTUI.\r\n\r\n\ @param\ level\ the\ game's\ difficulty\ level\r\n
+comment2.params=
+comment2.target=void\ initializeView()
+comment2.text=\r\n\ The\ View\ initialization\ adds\ ourselves\ as\ an\ observer\ to\ the\ Model\r\n
+comment3.params=
+comment3.target=void\ displayHelp()
+comment3.text=\r\n\ Display\ in\ the\ standard\ output\ the\ list\ of\ available\ commands\r\n
+comment4.params=board\ message
+comment4.target=void\ update(src.tiles.model.TilesModel,\ java.lang.String)
+comment4.text=\r\n\ The\ update\ for\ the\ PTUI\ prints\ the\ board\ and\ some\ other\ state\ like\ current\ score\ and\ number\ of\ moves\ made\r\n\r\n\ @param\ board\ \ \ the\ board\r\n\ @param\ message\ the\ message\ sent\ from\ the\ model\ to\ the\ view\ to\ inform\ about\ what\ happened\r\n
+comment5.params=
+comment5.target=void\ run()
+comment5.text=\r\n\ The\ run\ loop\ prompts\ for\ user\ input\ and\ makes\ calls\ into\ the\ Model.\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ The\ main\ routine.\r\n\r\n\ @param\ args\ command\ line\ arguments\ (unused)\r\n
+numComments=7

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Direction
+comment0.text=\r\n\ An\ enumeration\ that\ names\ the\ four\ directions\ the\ tiles\ can\ be\ moved\ in\ the\ board.\r\n\ Here\ is\ an\ example\ of\ how\ you\ can\ use\ this\ enum\ in\ another\ class\:\r\n\r\n\ <pre>\r\n\ Direction\ dir\ \=\ Direction.NORTH;\ \ \ \ \ \ \ \ //\ the\ direction\ is\ NORTH\r\n\ if\ (dir\ \=\=\ Direction.NORTH)\ {\r\n\ \ \ \ \ System.out.println(dir);\ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ prints\:\ NORTH\r\n\ }\r\n\ dir\ \=\ Direction.SOUTH;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ the\ direction\ is\ now\ SOUTH\r\n\ </pre>\r\n\r\n\ @author\ CS\ RIT\r\n
+comment1.params=initial
+comment1.target=Direction(java.lang.String)
+comment2.params=initial
+comment2.target=Direction\ getDirectionByInitial(java.lang.String)
+comment2.text=\r\n\ Get\ the\ direction\ of\ the\ given\ initial\r\n\ @param\ initial\ the\ initial\r\n\ @return\ the\ direction\ associated\ with\ the\ given\ initial.\ If\ the\ initial\ doesn't\ exist,\ returns\ null.\r\n
+numComments=3
